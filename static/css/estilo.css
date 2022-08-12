@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui;
+    background: #fff
+   
+}
+.nav-list a{
+    color:rgba(151, 109, 126, 0.8);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-list li a:hover{
+    background:#fff;
+    color: rgb(27, 50, 66);
+    -moz-box-shadow: 0 3px 10px 0;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-size: 2,5vh;
+}
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 3px;
+    background:  rgba(64, 117, 124, 1);
+    margin: 6px;
+}
+.home-frase{
+    background: url(/img/imagem-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    
+}
+.img-contato{
+  background-image: url(img\ contato.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.letrasfrases{
+    color: #fff;
+    text-align: center;
+
+}
+.ilustração1-quem-somos{
+    background-image: url(ilustração\ Quem\ Somoss.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+.serviços{
+    background-color: #976D7E;  
+    top:10vh;
+   
+}
+
+.serviços ul{
+    display:inline-block;
+    margin-right: 15vh;
+
+}
+.centralizar-tudo{
+    margin-left: 40vh;
+
+}
+.serviços li{
+    display: inline;
+}
+.homePortfólio{
+    display: flex;
+   
+}
+#background-cor{
+    background-color: #478C96;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 53.48vh;
+    width: 130.3vh;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    float: right;
+}
+.clientes{
+    margin: 110px;
+}
+  .nossosClientes{
+    /* NOSSOS CLIENTES */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vh;
+  line-height: 5vh;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.ajuste-logo-clientes{
+    margin-left: 5vh;
+}
+.contato{
+    color: #fff;
+    background: #40757C;
+    padding:100px;
+    font-size: 18px;
+    display: block;
+  
+  }
+.contato input{
+    background-color: #40757C;
+    
+}
+.mensagem-contato{
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    background: #40757c;
+}
+.contato input{
+    width: 500px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    
+}
+.contato-lado{
+    display: flex;
+  
+}
+.contato input{
+    width: 48vh;
+    height: 4vh;
+    top: 2550px;
+    font-size: 17px;
+    margin: 10px;
+}
+form p{
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.contato label{
+    margin: 10px;
+}
+  
+.contato-lado p{
+    position:relative;
+    float:right;
+    margin: 0px;
+    top: 35px;
+    left: 25vh;
+    font-size: 13px;
+    text-align: left;
+    font-size: 13px;
+   
+}
+.informações p{
+    display: inline-flexbox;
+    text-align: right;
+    margin-left: -17vh;
+    float: right;
+    font-size: 11px;
+    margin-top: -9vh
+    !important;
+}  
+textarea{
+    width: 650px;
+    height: 150px;
+    margin: 10px;
+}    
+.botão button{
+    background: #6ACAD7;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    width: 650px;
+}
+.mensagem-contato-responsivo{
+    display: inline-flexbox;
+    
+}
+.informações{
+    margin-top: -30vh;
+}
+.politica{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 50px;
+    letter-spacing: 0vh;
+}
+#mensagemquemsomos{
+
+    text-align: center;
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.7), rgba(151, 109, 126, 0.7)), url(ilustração2-Quem\ somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 17px;
+    height: 50vh;
+}
+#backgroundequipe{
+    background-color: #6ACAD7;
+    text-align: center;
+}
+.equipe{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 60px;
+    text-align: justify;
+}
+#imagem-final{
+    background-image: url(ilustração3\ quem\ somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+   
+}
+
+.foto-campanhas{
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(foto-campanhas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70VH;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.foto-campanhas p{
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.Design-Texto{
+    text-align:left;
+    margin: 17vh;
+    display: flex;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.gif-ajuste{
+    margin: 10vh;
+}
+.portfolio{
+    background: linear-gradient(0deg, rgb(129, 114, 120), rgba(64, 117, 124, 1)), url(lojas\ virtuais.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+  .portfolio p{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.gifs-marketing{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    margin-left: 5vh;
+}
+.criaçao-site-foto{
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Criação\ de\ Sites\ foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 65vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+.design-foto{
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Design\ Gráfico-ilustração.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.design-foto p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.frase-design{
+    margin-top: -10vh;
+}
+
+.lojas-frase{
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Lojas\ virtuais\ fot0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #FFFFFF;
+}
+  .lojas-frase p{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+@media (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: rgba(64, 117, 124, 1);
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity:0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-list a{
+        color: #fff;
+    }
+    header{
+        height: 12vh;
+    }
+    .logo{
+        width: 11vh;
+    }
+    .home-frase{
+        font-size: 13px;
+    }
+    .serviços{
+        font-size:14px ;
+    }
+    .centralizar-tudo{
+       margin-left: 13vh;
+       align-items: center;
+    }
+    .min-image{
+        height: 8vh;
+    }
+    .titulo-serviços{
+        font-size: 13px;
+    }
+    .arrumar-centro{
+      
+        text-align: center;
+
+    }
+    .auto-falante-lado{
+        margin-left:-2vh ;
+        margin-top: 10vh;
+    }
+    .ajuste-logo-clientes{
+      height: 9vh; 
+      margin-right: -7vh;
+      margin-top: 5vh;
+        
+    }
+    .nossosClientes{
+        font-size: 13px;
+    }
+    .gif-portfólio{
+        height: 20vh;
+    }
+    #background-cor{
+        height: 20vh;
+       
+    }
+    .portfólio-ajuste{
+        font-size: 13px;
+        margin-top: -7vh;
+        margin-left: -9vh;
+    }
+    .botão-portfólio-ajuste{
+       
+        margin-left: -8vh;
+        margin-top: -11vh;
+    }
+    button{
+        height: 7vh;
+        font-size: 12px;
+    }
+    #homePortfólio{
+        
+        display: flex;
+    }
+    .nav-list.active {
+        transform: translateX(0);
+
+    }
+    .contato input{
+        width: 20vh;
+        height: 2vh;
+        
+    }
+    .mensagem-contato{
+        width: 43vh;
+    }
+
+    .contato-lado{
+        margin-left: -12vh;
+    }
+    .contato label {
+        font-size: 11px;
+    }
+    .mensagem-contato-responsivo{
+        margin-left: -12vh;
+    
+    }
+    .botão button{
+        
+        width: 43vh;
+        font-size: 2vh;
+    }
+    .contato p{
+        font-size: 15px;
+        
+    }
+    .informações p{
+        font-size: 8px;
+        margin: -7vh;
+        letter-spacing: 1px;
+
+      
+    }
+    .informações{
+        margin-top: 20vh;
+
+    }
+    .politica{
+        font-size: 8px;
+        margin-left: 5vh;
+    }
+    .ilustração1-quem-somos{
+        height: 25vh;
+      
+    }
+    #mensagemquemsomos{
+        font-size: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        height: 30vh;
+    }
+    .foto-campanhas p{
+        font-size: 12px;
+        letter-spacing: 1px;
+        
+    }
+    .Design-Texto p{
+        margin: -6vh;
+    }
+    .gif-ajuste{
+        opacity: 0.3;
+    }
+    .mensagem-marketing-ajuste{
+        margin: 5vh;
+    }
+    .foto-campanhas{
+        height: 50vh;
+
+    }
+    .gifs-lojas{
+        margin-left: 0vh;
+        margin-top: -3vh;
+        height: -10vh;
+        position: relative;
+        opacity: 0.5;
+    }
+    
+    .Design-Texto{
+        margin-left: 6vh;
+    }
+    .gifs-marketing{
+        margin: -5vh;
+       opacity: 0.7;
+       margin-top: 3vh;
+    }
+    .Design-Texto p{
+        font-size: 12px;
+        
+    }
+    .Design-Texto{
+        position: 100%;
+    }
+    .portfolio p{
+        font-size: 12px;
+        margin-top: -7vh;
+    }
+    .portfolio img{
+        height: 8vh;
+    }
+    .portfolio{
+        margin-left: -5vh;
+    }
+    .portfolio{
+        height: 20vh;
+    }
+    .Design-Texto img{
+        height: 15vh;
+        margin: -8vh;
+        margin-top: 40vh;
+    }
+    .design-foto p{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .Design-Texto{
+        margin: 70px;
+        text-align: left;
+    }
+    .gif-ajuste{
+        margin: -5vh;
+        width: 16vh;
+        margin-top: 70vh;
+        margin-left: 5vh;
+        
+
+    }
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform:translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+@media (min-width: 999px){
+
+
+}
+
+}
