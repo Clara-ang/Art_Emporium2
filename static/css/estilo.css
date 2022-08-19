@@ -70,7 +70,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 8
 }
 .serviços{
     background-color: #976D7E;  
@@ -219,7 +219,7 @@ textarea{
 #mensagemquemsomos{
 
     text-align: center;
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.7), rgba(151, 109, 126, 0.7)), url(ilustração2-Quem\ somos.jpg);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.7), rgba(151, 109, 126, 0.7)), url(../img/ilustração2-Quem\ somos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
