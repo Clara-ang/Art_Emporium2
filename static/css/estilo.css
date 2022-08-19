@@ -239,7 +239,7 @@ textarea{
     text-align: justify;
 }
 #imagem-final{
-    background-image: url(ilustração3\ quem\ somos.jpg);
+    background-image: url(../img/ilustração3\ quem\ somos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +248,7 @@ textarea{
 }
 
 .foto-campanhas{
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(foto-campanhas.jpg);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(../img/foto-campanhas.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,7 +273,7 @@ textarea{
     margin: 10vh;
 }
 .portfolio{
-    background: linear-gradient(0deg, rgb(129, 114, 120), rgba(64, 117, 124, 1)), url(lojas\ virtuais.jpg);
+    background: linear-gradient(0deg, rgb(129, 114, 120), rgba(64, 117, 124, 1)), url(../img/lojas\ virtuais.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -293,7 +293,7 @@ textarea{
     margin-left: 5vh;
 }
 .criaçao-site-foto{
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Criação\ de\ Sites\ foto.jpg);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(../img/Criação\ de\ Sites\ foto.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -302,7 +302,7 @@ textarea{
     text-align: center;
 }
 .design-foto{
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Design\ Gráfico-ilustração.jpg);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(../img/Design\ Gráfico-ilustração.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,7 +319,7 @@ textarea{
 }
 
 .lojas-frase{
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(Lojas\ virtuais\ fot0.png);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.8), rgba(64, 117, 124, 0.8)), url(../img/Lojas\ virtuais\ fot0.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
