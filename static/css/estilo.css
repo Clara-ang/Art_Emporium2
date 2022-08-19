@@ -46,7 +46,7 @@ nav{
     margin: 6px;
 }
 .home-frase{
-    background: url(/img/imagem-home.jpg);
+    background: url(../img/imagem-home.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ nav{
     
 }
 .img-contato{
-  background-image: url(img\ contato.jpg);
+  background-image: url(..img/contato.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +66,7 @@ nav{
 
 }
 .ilustração1-quem-somos{
-    background-image: url(ilustração\ Quem\ Somoss.jpg);
+    background-image: url(..img/ilustração\ Quem\ Somoss.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
