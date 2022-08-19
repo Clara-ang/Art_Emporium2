@@ -46,7 +46,7 @@ nav{
     margin: 6px;
 }
 .home-frase{
-    background: url(static/img/imagem-home.jpg);
+    background: url(../img/imagem-home.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ nav{
     
 }
 .img-contato{
-  background-image: url(static/imgcontato.jpg);
+  background-image: url(../img/contato.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +66,7 @@ nav{
 
 }
 .ilustração1-quem-somos{
-    background-image: url(ilustração\ Quem\ Somoss.jpg);
+    background-image: url(../img/ilustração\ Quem\ Somoss.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +219,7 @@ textarea{
 #mensagemquemsomos{
 
     text-align: center;
-    background: linear-gradient(0deg, rgba(151, 109, 126, 0.7), rgba(151, 109, 126, 0.7)), url(ilustração2-Quem\ somos.jpg);
+    background: linear-gradient(0deg, rgba(151, 109, 126, 0.7), rgba(151, 109, 126, 0.7)), url(../img/ilustração2-Quem\ somos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
