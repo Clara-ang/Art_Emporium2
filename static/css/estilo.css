@@ -48,8 +48,6 @@ nav{
 .home-frase{
     background: url(../img/imagem-home.jpg);
 
-    background: url(static/img/imagem-home.jpg);
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +57,7 @@ nav{
 .img-contato{
 
   background-image: url(..img/contato.jpg);
-  background-image: url(static/imgcontato.jpg);
+  background-image: url(../imgcontato.jpg);
   background-image: url(../img/contato.jpg);
 
   background-position: center;

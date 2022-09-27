@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "{% static 'css/estilo.css' %} " type="text/css"  rel="stylesheet">
+    <link href= "{% static 'css/sty.css' %} " type="text/css"  rel="stylesheet">
+    <link href= "{% static 'js/mobile-navbar.js' %} " type="text/js"  rel="stylesheet">
+    <link href= "{% static 'js/script.js' %} " type="text/js"  rel="stylesheet">
+    <title>Agência Art Emporium</title>
+</head>
+<body>
+<header>
+        
+    <nav>
+    <a class ="logo" href="{% url 'home' %}"><img class ="logo" src="static/img/Logo Art Emporium.jpeg" alt="logo" width= "100vh" ></a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class= "nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="quem.html">Quem Somos</a></li>
+            <li><a href="Portfólio.html">Portfólio</a></li>
+            <li><a href="#vincular-serviços">Serviços</a>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+</header>
+<script src="mobile-navbar.js"></script>
+
+</body>
+</html>
