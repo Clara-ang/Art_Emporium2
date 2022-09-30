@@ -57,8 +57,7 @@ nav{
 .img-contato{
 
   background-image: url(..img/contato.jpg);
-  background-image: url(../imgcontato.jpg);
-  background-image: url(../img/contato.jpg);
+ 
 
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +72,6 @@ nav{
 .ilustração1-quem-somos{
 
     background-image: url(..img/ilustração\ Quem\ Somoss.jpg);
-    background-image: url(../img/ilustração\ Quem\ Somoss.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
