@@ -11,16 +11,17 @@
     <link href= "{% static 'js/script.js' %} " type="text/js"  rel="stylesheet">
     <title>Agência Art Emporium</title>
 </head>
+{% block header %}
+<!--Header-->
+{% include 'base/components/header.html' %}
+<!--End Header-->
+{% endblock header %}
 <body>
 
     <div class="img-contato">
         
     </div>
-    {% block header %}
-<!--Header-->
-{% include 'base/components/header.html' %}
-<!--End Header-->
-{% endblock header %}
+
 
 <!--Rodapé-->
 {% include 'base/components/footer.html' %}
