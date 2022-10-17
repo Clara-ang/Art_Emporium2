@@ -2,22 +2,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href= "{% static 'css/estilo.css' %} " type="text/css"  rel="stylesheet">
-    <link href= "{% static 'css/sty.css' %} " type="text/css"  rel="stylesheet">
-    <link href= "{% static 'js/mobile-navbar.js' %} " type="text/js"  rel="stylesheet">
-    <link href= "{% static 'js/script.js' %} " type="text/js"  rel="stylesheet">
-    <title>Agência Art Emporium</title>
+        <!-- Bootstrap core CSS -->
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href= "{% static 'css/menuCSS.css' %} " type="text/css"  rel="stylesheet">
+
 </head>
-<body>
-<header>
-<nav>
-    <input type="checkbox" id="bt_menu">
-    <label for="bt_menu">&#9776;</label>
-<nav>
-	<ul>
+
+
+<input type="checkbox" id="bt_menu">
+<label for="bt_menu">&#9776;</label>
+<nav class="menu">
+    <a class ="logo" href=""><img class ="logo" src="{% static 'img/logo.png' %}" alt="logo" width= "100vh" ></a>
+	<div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    <ul>
     	<li><a href="#">Home</a></li>
           <li><a href="#">Sobre</a>
             <li><a href="quem.html">Quem Somos</a></li>
@@ -28,14 +32,11 @@
                         <li><a href="#">Design Gráfico</a>
                         <li><a href="#">Lojas Virtuais</a>
                     </ul>
-
-        
         </li>
         <li><a href="#">Contato</a>
     </ul>
+    <div>
+        <input type="search" name="busca" class="busca" placeholder="busca">
+
+    </div>
 </nav>
-    
-</header>
-<script src="{% static 'js/mobile-menu.js'%}"></script>
-</body>
-</html>

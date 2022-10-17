@@ -1,6 +1,10 @@
+from http.client import HTTPResponse
 from pipes import Template
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from django.urls import reverse_lazy
+from django.contrib.auth.models import User
+
 
 
 class HomeView(TemplateView):
@@ -23,11 +27,14 @@ class SomosView(TemplateView):
 
 class HeaderView(TemplateView):
     template_name = "base/pages/header"
+    
+class MenuView(TemplateView):
+    template_name = "base/components/menu.html"    
 
 
 def register(request):
     if request.method == 'GET':
-        return render(request, "core/pages/register.html")
+        return render(request, "base/pages/register.html")
     
     else:
         username = request.POST.get('username')
