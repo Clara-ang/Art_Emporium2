@@ -1,12 +1,12 @@
 *{
 	margin:0;
 	padding:0;
-	color: rgb(182, 145, 145);
+
 	font-family:'Arial';
 	}	
 	
 .menu{
-	width:100%;
+	width:5;
 	height:50px;
 	background-color: #fff;
 	display: inline;
@@ -18,11 +18,12 @@
 .menu>ul{
 	list-style:none;	
 	position:relative;
-	margin-left:50px;
+	margin-right:80px;
 	}
 .menu ul li{
 		width:150px;
-		float:left;
+		float:right;
+		text-align: center;
 	}
 
 .menu a{
@@ -30,7 +31,7 @@
 	display:block;
 	text-decoration: none;
 	background-color: #fff;
-	text-align:center;
+	text-align:right;
 	}
 .menu ul ul{
 	list-style:none;
@@ -104,4 +105,7 @@ label[for='bt_menu']{
 #bt_menu:checked ~ .menu{
 	margin-left:0;
 	}
+}
+a{
+	color: rgb(182, 145, 145);
 }
