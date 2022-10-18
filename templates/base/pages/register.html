@@ -20,7 +20,7 @@
                 <h2 class="title title-primary">welcome back!</h2>
                 <p class="description description-primary">To keep connected with us</p>
                 <p class="description description-primary">please login with your personal info</p>
-                <button id="signin" class="btn btn-primary">Entrar</button>
+                <button type="submit" id="signin" class="btn btn-primary">Entrar</button>
             </div>    
             <div class="second-column">
                 <h2 class="title title-second">create account</h2>
@@ -47,21 +47,21 @@
                 <form class="form">
                     <label class="label-input" for="">
                         <i class="far fa-user icon-modify"></i>
-                        <input type="text" placeholder="Name">
+                        <input name="name" type="text" placeholder="Name" required/>
                     </label>
                     
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input name="email" type="email" placeholder="Email" required/>
                     </label>
                     
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input name="password" type="password" placeholder="Password" required/>
                     </label>
                     
                     
-                    <button class="btn btn-second">Inscrever-se</button>        
+                    <button type="submit" class="btn btn-second">Inscrever-se</button>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
@@ -98,21 +98,21 @@
                 
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input name="email" type="email" placeholder="Email" required/>
                     </label>
                 
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input name="password" type="password" placeholder="Password" required/>
                     </label>
                 
                     <a class="password" href="#">forgot your password?</a>
-                    <button class="btn btn-second">sign in</button>
+                    <button type="submit" class="btn btn-second">sign in</button>
                 </form>
             </div><!-- second column -->
         </div><!-- second-content -->
     </div>
-    <script src="{% static 'css/style.css' %} "></script>
+    <script src="{% static 'js/log.js' %} "></script>
 </form>
 </body>
 </html>
