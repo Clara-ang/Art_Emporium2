@@ -1,6 +1,13 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
+
+class Person(models.Model):
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+    telefone = models.CharField("Telefone", max_length = 19, null = True)
+
 # Create your models here.
 
 
