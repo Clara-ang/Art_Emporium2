@@ -12,8 +12,7 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-<form action="{% url 'register' %}" method="POST">
-  {% csrf_token %} 
+<form>
     <div class="container">
         <div class="content first-content">
             <div class="first-column">
@@ -44,7 +43,8 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">or use your email for registration:</p>
-                <form >
+                <form action="{% url 'register' %}" method="POST">
+                    {% csrf_token %} 
                     <label class="label-input" for="">
                         <i class="far fa-user icon-modify"></i>
                         <input name="username" type="text" id="typeText" placeholder="Usuário" required/>
@@ -94,11 +94,12 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">or use your email account:</p>
-                <form class="form">
+                <form action="{% url 'register' %}" method="POST">
+                    {% csrf_token %} 
                 
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input name="email" type="email" placeholder="E-mail..." required/>
+                        <input name="username" type="text" id="typeText" placeholder="Usuário" required/>
                     </label>
                 
                     <label class="label-input" for="">

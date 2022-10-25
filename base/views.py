@@ -1,12 +1,15 @@
-from http.client import HTTPResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as login_django
 from django.contrib.auth.decorators import login_required
+from django.urls import reverse
+from django.shortcuts import redirect
 
 
+from .models import Personal as personal
 
 class HomeView(TemplateView):
     template_name = "base/pages/home.html"
@@ -48,9 +51,10 @@ def register(request):
         
         user = User.objects.create_user(username=username, email=email, password=password)
         user.save()
+        Personal.objects.create(user= user)  #cria o perfil do usuário após o cadastro
         return render(request, "base/pages/home.html")
 
-def login(request):
+def register(request):
     if request.method == 'GET':
         return render(request, "base/pages/register.html")
     else:
@@ -61,10 +65,16 @@ def login(request):
         
         if user is not None:
             login_django(request, user)
-            return render(request, "base/pages/personal.html") 
-            
+            return redirect('home2')         
         else:
-           return render(request, "base/pages/register.html") 
+            return HttpResponseRedirect(reverse('register')) 
 
+#página principal logado no site  
 
+@login_required  
+class Home2View(TemplateView):
+    template_name = 'base/pages/home2.html'
 
+@login_required 
+class Personal(TemplateView):
+    template_name = 'base/pages/personal.html' 

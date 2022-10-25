@@ -1,8 +1,6 @@
-from email.header import Header
-from django import views
 from django.urls import path
-from .views import ContatoView, HomeView, LojasView, ServicosView, PortfólioViews, SomosView, MenuView, register
-from django.http import HttpResponse
+from .views import ContatoView, HomeView, Home2View, LojasView, Personal, ServicosView, PortfólioViews, SomosView, MenuView, register
+
 
 
 urlpatterns = [
@@ -16,4 +14,8 @@ urlpatterns = [
 
     #autenticação
     path('register/', register, name = 'register'),
+
+    #páginas logado
+    path('home2/', Home2View, name = 'home2'),
+    path('personal/', Personal, name = 'personal'),
 ]
