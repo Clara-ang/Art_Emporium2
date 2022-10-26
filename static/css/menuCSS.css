@@ -17,13 +17,14 @@
 	outline: nones;
 }	
 .menu{
+	position:absolute;
 	width:5;
 	height:50px;
 	background-color: #fff;
 	display: inline;
 	justify-content: space-around;
 	align-items: center;
-	background-image: url(..img\ logo.png);
+	
 	}
 	
 .menu>ul{
