@@ -5,11 +5,12 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as login_django
 from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 from django.urls import reverse
 from django.shortcuts import redirect
 
 
-from .models import Personal as personal
+from .models import Personal as Personal
 
 class HomeView(TemplateView):
     template_name = "base/pages/home.html"
