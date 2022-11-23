@@ -1,6 +1,7 @@
 from django.contrib import admin
-from base.models import Personal
 from .models import Personal
+
+# Register your models here.
 
 
 admin.site.register(Personal)

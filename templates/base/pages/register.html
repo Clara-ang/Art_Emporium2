@@ -12,7 +12,6 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-<form>
     <div class="container">
         <div class="content first-content">
             <div class="first-column">
@@ -94,7 +93,7 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">or use your email account:</p>
-                <form action="{% url 'register' %}" method="POST">
+                <form action="{% url 'login' %}" method="POST">
                     {% csrf_token %} 
                 
                     <label class="label-input" for="">
@@ -114,6 +113,5 @@
         </div><!-- second-content -->
     </div>
     <script src="{% static 'js/log.js' %} "></script>
-</form>
 </body>
 </html>

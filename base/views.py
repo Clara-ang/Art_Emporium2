@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as login_django
 from django.contrib.auth.decorators import login_required
-from django.utils.decorators import method_decorator
 from django.urls import reverse
 from django.shortcuts import redirect
 
@@ -55,7 +54,7 @@ def register(request):
         Personal.objects.create(user= user)  #cria o perfil do usuário após o cadastro
         return render(request, "base/pages/home.html")
 
-def register(request):
+def login(request):
     if request.method == 'GET':
         return render(request, "base/pages/register.html")
     else:
