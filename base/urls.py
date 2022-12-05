@@ -6,9 +6,9 @@ from .views import ContatoView, HomeView, Home2View, LojasView, Personal, Servic
 urlpatterns = [
     path('', HomeView.as_view(), name= 'home'), 
     path('portfolio/', PortfólioViews.as_view()),
-    path('contato/', ContatoView.as_view()), 
+    path('', ContatoView.as_view(), name= 'contato'), 
     path('serviços/', ServicosView.as_view()),
-    path('somos/', SomosView.as_view()),
+    path('', SomosView.as_view(), name= 'somos'),
     path('lojas/', LojasView.as_view()),
     path('menu/', MenuView.as_view()),
 

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base',
+    'bootstrap5',
 
 ]
 
@@ -120,7 +121,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-BASE_DIR / 'static/', 
+BASE_DIR / "static", 
 ]
 
 MEDIA_URL = '/img/'
